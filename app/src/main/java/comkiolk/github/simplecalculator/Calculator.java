@@ -19,7 +19,7 @@ public class Calculator extends AppCompatActivity {
         mSecondOperand = findViewById(R.id.second_operand_edit_text);
 
     }
-
+//add comment
     public int summOfNumbers(int firstNumber, int secondNumber) {
         return firstNumber + secondNumber;
     }

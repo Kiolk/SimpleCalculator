@@ -7,58 +7,9 @@
     android:orientation="vertical"
     tools:context="comkiolk.github.simplecalculator.MainActivity">
 
-    <LinearLayout
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="2"
-        android:orientation="horizontal"
-        android:gravity="center">
-
-        <EditText
-            android:id="@+id/first_operand_edit_text"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:textSize="48sp"/>
-        <EditText
-            android:id="@+id/second_operand_edit_text"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:textSize="48sp"/>
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:gravity="center">
-
-        <Button
-            android:id="@+id/result_button"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:padding="8dp"
-            android:text="@string/result_button"
-            android:textSize="48sp"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="2"
-        android:gravity="center">
-
-        <TextView
-            android:id="@+id/result_text_view"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="48sp"
-            android:gravity="center"
-            />
-
-    </LinearLayout>
-
+        android:layout_height="match_parent"
+        android:text="@string/result_button"/>
 
 </LinearLayout>

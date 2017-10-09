@@ -8,6 +8,7 @@
     tools:context="comkiolk.github.simplecalculator.MainActivity">
 
     <TextView
+        android:id="@+id/first_text_text_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="@string/result_button"/>
